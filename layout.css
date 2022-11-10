@@ -1,0 +1,259 @@
+body {
+    font-size: 62.5%;
+    background-color: #333333;
+
+}
+
+.mainnav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    height: 56px;
+}
+.nav-parent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: black;
+    color: white;
+}
+.nav-parent > * {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+.nav-parent .tuplaleveys {
+    flex-grow: 2;
+}
+.anchor {
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    z-index: -1;
+    top: -56px;
+    left: 0;
+    visibility: hidden;
+}
+#portfolio, .menneisyys, .nykyisyys, .tulevaisuus, .contactme {
+    position: relative;
+}
+/* .yläosa {
+    background: black;
+    color: white;
+    font-size: 1rem;
+    font-family: serif;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+    position: fixed;
+    width: 100%;
+} */
+
+.portfolionimi {
+    padding-bottom: 2rem;
+}
+
+.main {
+    font-size: 2rem;
+    color: orange;
+    font-family: serif;
+    position: absolute;
+    padding: 3rem;
+}
+
+#portfolio {
+    background-image: url(https://images.unsplash.com/photo-1532555985931-0cd8773a663c?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8Y2l0eSxuaWdodHx8fHx8fDE2NjM5MTk5MjQ&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600);
+    
+
+    padding: 1rem;
+    background-size: cover;
+    background-position-x: center;
+}
+.tekstilaatikko {
+    margin: 3rem;
+    background-color: black;
+    opacity: 0.7;
+}
+
+.esimerkit {
+    padding: 1rem;
+    color: #ffddbd;
+}
+
+li {
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+
+.menneisyys {
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+}
+
+.valkonentausta {
+    background-color: white;
+    color: black;
+    padding-top: 1rem;
+}
+
+.container {
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.three {
+    flex-grow: 1;
+    flex-basis: 0;
+    display: flex;
+}
+
+figure {
+    display: block;
+    }
+
+figure img {
+    max-width: 100%;
+}
+.parent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+    
+.parent > * {
+    flex-basis: 0;
+    flex-grow: 1;
+    margin: 10px;
+    border: 1px solid black;
+    padding: 0.5rem;
+    padding-block-end: 2rem;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px
+}
+
+.space {
+    margin-bottom: 1rem;
+}
+
+.line-1 {
+    height: 1px;
+    background: #607c8d;
+    margin-bottom: 1.5rem;
+  }
+
+.nykyisyys {
+    background-color: #333333;
+    color: orange;
+    padding-top: 2rem;
+    font-size: 1.5rem;
+}
+
+.nykyisyystext {
+    background-color: #333333;
+    font-size: 1rem;
+    color: white;
+    padding-top: 1rem;
+}
+
+.nykyisyyskuva {
+    display: flex;
+    background-color: #333;
+    padding-bottom: 1.5rem;
+}
+
+.nykykuva {
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+}
+
+.line-2 {
+    height: 1px;
+    background: #607c8d;
+}
+
+.tulevaisuus {
+    background-color: #333333;
+    color: orange;
+    font-size: 1.5rem;
+    padding-top: 1.5rem;
+}
+
+.tulevaisuuskuva {
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+.tulevaisuusvierekkain {
+    display: inline-flex;
+    background-color: #333;
+    padding-bottom: 1.5rem;
+}
+
+.tulevaisuusteksti {
+    background-color: #333333;
+    font-size: 1rem;
+    color: white;
+    padding-top: 1rem;
+}
+
+.contactme {
+    background-color: #333333;
+    color: orange;
+    font-size: 1.5rem;
+    padding-top: 1.5rem;
+}
+
+.tiedot {
+    background-color: #333;
+    font-size: 1rem;
+    color: white;
+    padding-top: 1.5rem;
+}
+
+.pp {
+    margin-bottom: 2rem;
+}
+
+.palikat {
+    padding-left: 10rem;
+    padding-top: 0.5rem;
+}
+
+.both {
+    display: flex;
+    background-color: #333;
+}
+
+.vv {
+    margin-bottom: 1rem;
+    padding-inline-start: 15rem;
+}
+
+.button {
+    background-color: orange;
+    margin-left: 5rem;
+    font-size: 1rem;
+    border: none;
+    padding: 0.5rem;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+
+  .line-3 {
+    height: 1px;
+    background: white
+  }
+
+  .viimeinenteksti {
+    font-size: 1rem;
+    color: white;
+    background-color: #333;
+    font-family: sans-serif;
+    padding-top: 0.2rem;
+  }
